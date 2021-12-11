@@ -1,0 +1,38 @@
+    .header{background-color:#2e2b2b; width: 100%; height: 50px;}
+        .logo{color: red; font-size: larger; position: absolute; top: 18px;  font-weight: bolder; font-family:cursive; left: 150px;}
+        .searchbar{position:absolute; top: 15px; left: 800px; border-color: white; width: 400px; height: 30px;  border-top-right-radius: 10px; border-top-left-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;}
+        .sign-in{color: red; position: absolute; right: 40px; top: 18px; font-weight: bolder;}
+        .search-icon{width: 80px; height: 25px; background-color: red; position: absolute;  color: white; border-color: white; right: 240px; top: 18px; border-top-right-radius: 10px; border-top-left-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;}
+    .main-background{background-color: black; width: 100%; height: 1200px;}
+    .middle-background{height: 900px; width: 300px; background-color: #2e2b2b; position:relative; display: inline-block; left: 250px;  color: white;}
+    .image{border-radius: 10px;}
+    .flex-container-1 {display: flex; position: absolute; top: 25px;
+  background-color:black;
+}
+
+.flex-container-1 > div {
+  background-color:black; padding: 5px;
+  font-size: 30px;
+}
+.flex-container-2 {display: flex; position: absolute; top: 260px;
+  background-color:black;
+}
+
+.flex-container-2 > div {
+  background-color:black; padding: 5px;
+  font-size: 30px;
+}
+.flex-container-3 {display: flex; position: absolute; top: 250px; right: 90px;
+  background-color:black;
+}
+
+.flex-container-3 > div {
+  background-color:black; padding: 5px;
+  font-size: 30px;
+}
+.playing-song{position: relative; left: 250px; border-radius: 10px; top: 10px;}
+.heart{position: relative; left: 290px; border-color: white; border border-color: aliceblue; color: white; top: 10px; text-shadow: white;}
+.volume{position: relative; left: 380px; top: 10px;}
+.backward{position: relative; left:440px; top: 10px; border-style: solid;}
+.play{position: relative; left: 800px; top: 10px;}
+.forward{position: relative; left: 1100px; top: 10px;}
